@@ -54,6 +54,24 @@ header a:hover {
 
 main {
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.categories {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+
+.category {
+    margin: 10px 0px
+}
+
+.category img {
+    width: 100%;
 }
 
 footer {
@@ -80,6 +98,16 @@ footer {
         width: min-content;
         padding: 0px 0px 0px 15px;
     }
+
+    .categories {
+        width: 90%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .category {
+        width: 40%
+    }
 }
 
 @media (min-width: 768px) {
@@ -89,5 +117,15 @@ footer {
 
     header .section {
         padding: 0px 0px 0px 50px;
+    }
+
+    .categories {
+        width: 80%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .category {
+        width: 30%
     }
 }
