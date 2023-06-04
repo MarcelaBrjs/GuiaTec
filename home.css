@@ -1,0 +1,83 @@
+:root {
+    --blue: #172b99;
+    --light-blue: #2892d7;
+    --red: #d62839;
+    --green: #7fd1b9;
+    --white: #fdf7fa;
+    --black: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+    background-image: url(img/tec2.png);
+    background-size: 100% auto;
+    background-position: center center;
+    box-shadow: inset 0 0 0 1000px rgba(252,247,250,.8);
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background-color: var(--white);
+}
+
+header img {
+    width: 50px;
+}
+
+header a {
+    color: var(--black);
+    text-align: center;
+    padding: 0px 30px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header a:hover {
+    font-weight: 700;
+  }
+
+main {
+    min-height: 85vh;
+}
+
+footer {
+    background-color: var(--white);
+    text-align: center;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: var(--black);
+}
+
+#logo {
+    display: block;
+    margin: 100px auto 30px auto;
+    width: 300px;
+}
+
+#hexagonos {
+    display: block;
+    margin: 50px auto 30px auto;
+    width: 550px;
+    opacity: 0.8;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px auto 50px auto;
+    font-weight: 400;
+    max-width: 600px;
+}
